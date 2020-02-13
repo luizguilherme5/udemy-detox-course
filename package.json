@@ -10,16 +10,20 @@
     "test:e2e:build": "detox build -c ios.sim.debug"
   },
   "dependencies": {
-    "react": "^16.3.0-alpha.1",
-    "react-native": "0.54.1"
+    "react": "16.9.0",
+    "react-native": "0.61.5"
   },
   "devDependencies": {
-    "babel-jest": "22.4.1",
-    "babel-preset-react-native": "4.0.0",
-    "detox": "^7.2.0",
-    "jest": "22.4.2",
-    "mocha": "^5.0.4",
-    "react-test-renderer": "^16.3.0-alpha.1"
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0",
+    "mocha": "^6.1.3",
+    "detox": "^15.0.0"
   },
   "jest": {
     "preset": "react-native",
