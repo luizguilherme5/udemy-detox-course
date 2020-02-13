@@ -16,8 +16,11 @@ workflows:
     - yarn@0.1.1:
         inputs:
         - command: cache clean
-        - command: add detox -D
     - yarn@0.1.1: {}
+    - npm@0.9.0:
+        inputs:
+        - command: install detox --save-dev
+        title: Install Detox Dependencie
     - npm@0.9.0:
         inputs:
         - command: install -g detox-cli
