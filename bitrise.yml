@@ -5,9 +5,7 @@ project_type: other
 workflows:
   ci:
     steps:
-    - yarn@0.1.1:
-      inputs:
-        - command: cache clean
+    - yarn@0.1.1: {}
     - yarn@0.1.1:
         inputs:
         - command: run test
